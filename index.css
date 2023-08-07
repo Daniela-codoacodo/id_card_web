@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Inter:wght@100;300;400;500;600;700;900&family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+
+* {
+    /*margin: 0;
+   padding: 0;*/
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+body {
+    background-color: #A1C181;
+    color: #132A13;
+    background: linear-gradient(
+    to right,
+    #bde6bd,
+    #6c8b4d
+  );
+}
+
+.main {
+    margin-top:20em ;
+}
+
+h1 {
+    font-family: 'Arizonia';
+    font-size: 12em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h3 {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    color: #132A13;
+    position: relative;
+    bottom: 30px;
+}
+a {
+    text-decoration: none;
+    font-size: 15em;
+    font-weight: 500;
+    color:blanchedalmond;
+    background-color: #132A13;
+    border-radius: 50px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15em;
+    margin: 0 50em;
+}
+
+.info {
+    /*font-size: 12em;*/
+    font-size: 15em;
+    font-weight: 700;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.img {
+    border-radius: 50%;
+    border: 5px solid blanchedalmond;
+}
+
+@media (max-width: 767px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+}
